@@ -1,0 +1,73 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    
+    .items{
+    width: 200px;
+    height: 200px;
+    }
+
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 768px) {
+   
+
+    .main-nav a{
+    font-size: 16px;
+    }
+
+}
+    
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+      .main-nav{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    }
+    .main-nav ul{
+    display: none;
+    }
+    
+    .main-nav {
+    margin: 0;
+    }
+    
+    .main-nav img{
+    width: 75px;
+    }
+    
+     .gallery-banner{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("img/banner-gallery-small.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/banner-gallery-small.jpg");
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/banner-gallery-small.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/banner-gallery-small.jpg");
+    }
+    
+    
+        .items{
+    width: 170px;
+    height: 170px;
+    }
+    
+     .gallery-items{
+         margin-left: 10px;
+         margin-right: 10px;
+    }
+ 
+    
+}
